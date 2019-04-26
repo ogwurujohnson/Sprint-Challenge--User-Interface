@@ -236,6 +236,14 @@ p {
   padding-top: 10px;
 }
 
+.plan-section-boxes .box .learn-more {
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 150px;
+}
+
 /* End Individual Box Styling */
 
 /* End About Boxes Section */
