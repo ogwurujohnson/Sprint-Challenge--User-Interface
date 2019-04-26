@@ -195,13 +195,26 @@ p {
 /* End Interactive Image Section */
 
 
-/* About Section Styling */
+/* About Page Main Section Styling */
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* about section styling */
+.main-content .about-section {
+    flex: 1;
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    padding-bottom: 17px;
+}
+/* End about section styling */
+
+
+
+/* End About Page Main Section Styling */
 
 footer {
   width: 100%;
