@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    - Semantic HTMl is a concept that allows for tags to describe the meaning of sections to readers of your code before they get to see how the page looks.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+   
+    -  ```display: block;``` starts on a new line, while ```display: inline;``` takes up one line
+    -  ```display: block;``` takes up the full width of a page, while ```display: inline;``` takes up only the space bounded by it's opening and closing tags
 
 3. What are the 4 areas of the box model?
 
+    - Margin
+    - Border
+    - Padding 
+    - Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    -  ```align-items:center;```, works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    - The goal of any team of developers working on a project is to get to its MVP stage before the deadline day, and to accomplish this collaboration is needed on the part of each developer and this is where git comes in, it helps them collaborate on projects, keep track of changes and trace bugs while still working fast to meet their deadline.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

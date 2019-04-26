@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* About Page Main Section Styling */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* about section styling */
+.main-content .about-section {
+  flex: 1;
+  border-bottom: 1px dotted black;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  padding-bottom: 17px;
+}
+/* End about section styling */
+
+/* About Boxes Section */
+.main-content .plan-section-boxes {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+/* individual Box Styling */
+.plan-section-boxes .box {
+  width: 800px;
+  flex: 1;
+  align-self: stretch;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.plan-section-boxes .box h1,
+p {
+  padding-top: 10px;
+}
+
+.plan-section-boxes .box .learn-more {
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 150px;
+}
+
+.plan-section-boxes .box:nth-child(2) {
+    margin-left: 20px;
+}
+
+.plan-section-boxes .box:nth-child(4) {
+    margin-left: 20px;
+}
+/* End Individual Box Styling */
+
+/* End About Boxes Section */
+
+/* Work Together Section Styling */
+.work-together-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+/* End Work Together Section Styling */
+
+/* End About Page Main Section Styling */
+
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 490px) {
+
+    .main-content .plan-section-boxes {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0 0 0 0;
+      }
+    
+      .plan-section-boxes .box {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+        width: 100%;
+        align-self: center;
+      }
+}
