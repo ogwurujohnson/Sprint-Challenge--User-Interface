@@ -212,7 +212,15 @@ p {
 }
 /* End about section styling */
 
-
+/* About Boxes Section */
+.main-content .plan-sectiojn-boxes {
+    flex: 5;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+/* End About Boxes Section */
 
 /* End About Page Main Section Styling */
 
