@@ -232,7 +232,7 @@ p {
 
 
 /* Media Queries for Responsiveness */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 490px) {
 
     .main-content .plan-section-boxes {
         flex-direction: column;
