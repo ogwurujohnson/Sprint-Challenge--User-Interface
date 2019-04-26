@@ -72,7 +72,7 @@ p {
 }
 
 
-/* Navigation Section */
+/* Navigation Section Styling */
 .navigation-header {
     /* flex codes */
     display: flex;
@@ -106,7 +106,13 @@ p {
     color: black;
     padding-left: 30px;
 }
-/* End Navigation Section */
+/* End Navigation Section Styling*/
+
+/* Interactive Header Image Section Styling */
+.page-interactive-image {
+    margin-bottom: 30px;
+}
+/* End Interactive Header Image Section Styling */
 
 .top-content {
     display: flex;
