@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+
+/* Navigation Section */
+.navigation-header {
+    /* flex codes */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* normal css codes */
+    padding: 20px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+.navigation-header .lambda-logo {
+    flex: 0;
+}
+
+.navigation-header nav {
+    /* normal css codes */
+    margin-top: 20px;
+
+    /* Flex codes */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.navigation-header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+/* End Navigation Section */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
