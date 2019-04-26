@@ -244,9 +244,18 @@ p {
     width: 150px;
 }
 
+.plan-section-boxes .box:nth-child(2) {
+    margin-left: 20px;
+}
+
+.plan-section-boxes .box:nth-child(4) {
+    margin-left: 20px;
+}
 /* End Individual Box Styling */
 
 /* End About Boxes Section */
+
+
 
 /* End About Page Main Section Styling */
 
