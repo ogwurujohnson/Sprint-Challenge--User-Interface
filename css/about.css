@@ -194,32 +194,50 @@ p {
 }
 /* End Interactive Image Section */
 
-
 /* About Page Main Section Styling */
 .main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* about section styling */
 .main-content .about-section {
-    flex: 1;
-    border-bottom: 1px dotted black;
-    margin-bottom: 20px;
-    padding: 0 20px;
-    padding-bottom: 17px;
+  flex: 1;
+  border-bottom: 1px dotted black;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  padding-bottom: 17px;
 }
 /* End about section styling */
 
 /* About Boxes Section */
-.main-content .plan-sectiojn-boxes {
-    flex: 5;
-    display: flex;
-    flex-wrap:  wrap;
-    justify-content: space-evenly;
-    padding: 0 20px;
+.main-content .plan-section-boxes {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 20px;
 }
+
+/* individual Box Styling */
+.plan-section-boxes .box {
+  width: 800px;
+  flex: 1;
+  align-self: stretch;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted black;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.plan-section-boxes .box h1,
+p {
+  padding-top: 10px;
+}
+
+/* End Individual Box Styling */
+
 /* End About Boxes Section */
 
 /* End About Page Main Section Styling */
