@@ -195,6 +195,13 @@ p {
 /* End Interactive Image Section */
 
 
+/* About Section Styling */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 footer {
   width: 100%;
