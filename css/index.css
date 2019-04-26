@@ -72,48 +72,6 @@ p {
 }
 
 
-/* Navigation Section Styling */
-.navigation-header {
-    /* flex codes */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    /* normal css codes */
-    padding: 20px;
-    margin-bottom: 15px;
-    padding-left: 0px;
-    padding-right: 25px;
-}
-
-.navigation-header .lambda-logo {
-    flex: 0;
-}
-
-.navigation-header nav {
-    /* normal css codes */
-    margin-top: 20px;
-
-    /* Flex codes */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex: 1;
-}
-
-.navigation-header nav a {
-    text-decoration: none;
-    color: black;
-    padding-left: 30px;
-}
-/* End Navigation Section Styling*/
-
-/* Interactive Header Image Section Styling */
-.page-interactive-image {
-    margin-bottom: 30px;
-}
-/* End Interactive Header Image Section Styling */
-
 /* Boxes content Styling */
 .middle-content .boxes .box:nth-child(1) {
     background: teal;
@@ -201,23 +159,4 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }

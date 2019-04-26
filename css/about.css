@@ -157,43 +157,6 @@ p {
   margin: 0 auto;
 }
 
-/* Navigation Section */
-.navigation-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-  margin-bottom: 15px;
-  padding-left: 0px;
-  padding-right: 25px;
-}
-
-.navigation-header .lambda-logo {
-  flex: 0;
-}
-
-.navigation-header nav {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.navigation-header nav a {
-  text-decoration: none;
-  color: black;
-  padding-left: 30px;
-}
-
-/* End Navigation Section */
-
-/* Interactive Image Section */
-.page-interactive-image {
-  margin-bottom: 30px;
-}
-/* End Interactive Image Section */
-
 /* About Page Main Section Styling */
 .main-content {
   display: flex;
@@ -266,24 +229,3 @@ p {
 /* End Work Together Section Styling */
 
 /* End About Page Main Section Styling */
-
-/* Footer Section */
-footer {
-  width: 100%;
-  background: black;
-}
-
-footer nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
-}
-
-footer nav a {
-  color: white;
-  text-decoration: none;
-}
-/* End Footer Section */
