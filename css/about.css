@@ -255,10 +255,19 @@ p {
 
 /* End About Boxes Section */
 
-
+/* Work Together Section Styling */
+.work-together-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+/* End Work Together Section Styling */
 
 /* End About Page Main Section Styling */
 
+/* Footer Section */
 footer {
   width: 100%;
   background: black;
@@ -277,3 +286,4 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+/* End Footer Section */
