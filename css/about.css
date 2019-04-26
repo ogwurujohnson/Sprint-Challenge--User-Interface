@@ -229,3 +229,22 @@ p {
 /* End Work Together Section Styling */
 
 /* End About Page Main Section Styling */
+
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 375px) {
+
+    .main-content .plan-section-boxes {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0 0 0 0;
+      }
+    
+      .plan-section-boxes .box {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+        width: 100%;
+        align-self: center;
+      }
+}
